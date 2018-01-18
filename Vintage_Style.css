@@ -1,0 +1,107 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+*{
+	box-sizing:border-box;
+}
+
+#nome{
+	position:absolute;
+	top:0;
+	width:100%;
+	text-align:center;
+	font-size:15px;
+	font-family: "Palatino Linotype", tahoma,serif;
+	color:lightGray;
+
+		
+}
+
+.intro{
+	position:absolute;
+	top:40px;
+	width:100%;
+	height:500px;
+	background-color:coral;
+	line-height:70px;	
+}
+.intro p{
+	position:relative;
+	top:10%;
+	font-size: 25px;
+	font-family: "Palatino Linotype", tahoma,serif;
+	color:lightGrey;
+	text-shadow:5px 0px 4px grey;	
+	text-align:center;
+}
+.intro span{
+	font-size: 40px;
+	font-weight:bolder;
+	font-family:"Times New Roman", Times, Georgia;
+	text-transform: uppercase;
+}
+.intro h4{
+	position:relative;
+	top: 10px;
+	color:lightGrey;
+	font-family: "Palatino Linotype", tahoma,serif;
+	text-align:center;
+	text-indent:500px;
+}
+
+.imagem{
+	position:relative;
+	top:550px;
+	height:300px;
+	text-align:center;
+	
+}
+.imagem p{
+	font-size: 25px;
+	font-family:"Georgia", tahoma,serif;
+	font-weight:bold;
+	text-shadow:5px 2px 4px lightGrey;
+	color:coral;
+}
+.imagem img{
+	border:5px solid coral;
+	border-radius:5px;
+	width: 50px;
+}
+.imagem img:hover{
+	opacity:0.8;
+	border:5px solid grey;
+}
+
+.imagem img:active{
+	transform:scale(2);
+	
+	
+}
+
+#end{
+	position:relative;
+	top:800px;
+	width:100%;
+	height:200px;
+	background-color:coral;
+	text-align:center;
+}
+#end a{	
+	position:relative;
+	top:30px;
+	list-style-type:none;
+	font-family:"Georgia", tahoma,serif;
+	text-decoration: none;
+	color:lightGrey;
+}
+#end a:hover{
+	color:white;
+}
+#end p{
+	position:relative;
+	top:30px;
+	font-family:"Georgia", tahoma,serif;
+	color:lightGrey;
+}
